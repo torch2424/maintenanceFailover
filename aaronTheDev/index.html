@@ -14,11 +14,8 @@
     <link rel="canonical" href="<%host%>">
     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 
-    <script async custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
-
-    <title>Server Fire</title>
-    <link rel="icon" type="image/png"
-      href="./images/fireEmoji.png">
+    <title>Aaron Turner</title>
+    <link rel="icon" type="image/png" href="../images/fireEmoji.png">
 
     <!--
       CSS must be embedded inline
@@ -56,21 +53,11 @@
         amp-img,
         img {
             max-width: 300px;
+            margin-bottom: 10px;
         }
 
         a {
             font-size: 18px;
-        }
-
-        .giphyEmbed {
-          max-width: 400px;
-          width: 100%;
-
-          text-align: center;
-          margin-left: auto;
-          margin-right: auto;
-
-          margin-bottom: 10px;
         }
 
         .poem {
@@ -86,52 +73,36 @@
 
 
 <body>
-  <div class="container">
+    <div class="container">
 
-    <!-- Fireplace gif -->
-    <div class="giphyEmbed">
-      <amp-video id="gif-mp4"
-        poster="https://media.giphy.com/media/ZHXz9MZbJI1YA/200_s.gif"
-        style="margin:0;padding:0"
-        layout="responsive"
-        width="400"
-        height="225"
-        autoplay
-        loop>
+      <amp-img src="https://avatars0.githubusercontent.com/u/1448289?v=3&s=460" width="300px" height="300px" layout="responsive"></amp-img>
 
-        <div fallback>
-          <p>Your browser doesn't support HTML5 video.</p>
-        </div>
+      <main>
+        <article>
+          Hello! This isn't one of those, "I'm too cool for CSS" programmer pages. I actually like CSS a lot, especially Sass, and BEM! Anyways, As you may notice, <b>my website is down</b>. So here's a little poem I wrote:
+          <div class="poem">
+            <br />
+            <i>Maybe the server is powered off?</i>
+            <br />
+            <br />
+            <i>Or perhaps the server lost its socks?</i>
+            <br />
+            <br />
+            <i>Possibly the server found someone they admire?</i>
+            <br />
+            <br />
+            <i>But most likely, the server is on fire.</i>🔥🖥️🔥
+            <br />
+            <br />
+          </div>
+          You can find my code and projects at: <a href="https://github.com/torch2424">Github</a>, or feel free to contact me at <a href="mailto:aaron@aaronthedev.com">aaron@aaronthedev.com</a>.
+        </article>
 
-        <source src="https://media.giphy.com/media/ZHXz9MZbJI1YA/giphy.mp4" type="video/mp4">
-        </source>
-      </amp-video>
+        <h2>
+            Have a nice day!
+        </h2>
+      </main>
     </div>
-
-    <main>
-      <article>
-        Oh hello, I didn't see you there.
-        As you may notice, <b>this probably is not the website you were looking for</b>.
-        You've reached this page, because the server is down.
-        <div class="poem">
-          <br />
-          <i>Maybe the server is powered off?</i>
-          <br />
-          <br />
-          <i>Or perhaps the server lost its socks?</i>
-          <br />
-          <br />
-          <i>Possibly the server found someone they admire?</i>
-          <br />
-          <br />
-          <i>But most likely, the server is on fire.</i>
-          <br />
-          <br />
-        </div>
-        Aaron Turner is the <b>webmaster</b> of this website. You can find their code and projects at: <a href="https://github.com/torch2424">Github</a>, or feel free to contact them at <a href="mailto:aaron@aaronthedev.com">aaron@aaronthedev.com</a>.
-      </article>
-    </main>
-  </div>
 </body>
 
 </html>
